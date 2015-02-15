@@ -10,19 +10,19 @@ This project uses Instagram API, NLTK library for Natural Language Processing, N
 4. matplotlib (http://matplotlib.org/users/installing.html)
 
 ## How To
-1. To collect posts in Instagram with specific tags, run "crawl.py" followed by query tags you want to search. It will collect posts written to file. Find below example for crawling data using #onlineshopbali tags that is written to "data_raw.txt".
+To collect posts in Instagram with specific tags, run "crawl.py" followed by query tags you want to search. It will collect posts written to file. Find below example for crawling data using #onlineshopbali tags that is written to "data_raw.txt".
 ```
 # python crawl.py onlineshopbali data_raw.txt
 ```
-2. To find out list of unique username from particular raw data file, run "get_user.py". It will generate text file with the list.
+To find out list of unique username from particular raw data file, run "get_user.py". It will generate text file with the list.
 ```
 # python get_user.py data_raw.txt user_data.txt
 ```
-3. To clean the data, run "cleaner.py", it will remove unnecessary stuffs like smiley, hashtags, unrelated links, stopwords, etc and generate output file. Specify the input and output filename on the command line as below example.
+To clean the data, run "cleaner.py", it will remove unnecessary stuffs like smiley, hashtags, unrelated links, stopwords, etc and generate output file. Specify the input and output filename on the command line as below example.
 ```
 # python cleaner.py data_raw.txt data_cleaned.txt
 ```
-4. To find what kind of products are posted, run "mini_liwc.py" follows by text file that will be analyzed. This will print out most common words, product categories and visualization. Products that are not defined in our LIWC will be categorized as "others".
+To find what kind of products are posted, run "mini_liwc.py" follows by text file that will be analyzed. This will print out most common words, product categories and visualization. Products that are not defined in our LIWC will be categorized as "others".
 ```
 # python mini_liwc.py data_cleaned.txt
 ```
