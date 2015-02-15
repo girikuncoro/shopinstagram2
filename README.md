@@ -18,7 +18,7 @@ This project uses Instagram API, NLTK library for Natural Language Processing, N
 ```
 # python get_user.py data_raw.txt user_data.txt
 ```
-To clean the data, run "cleaner.py", it will remove unnecessary stuffs like smiley, hashtags, unrelated links, stopwords, etc and generate output file. Specify the input and output filename on the command line as below example.
+3. To clean the data, run "cleaner.py", it will remove unnecessary stuffs like smiley, hashtags, unrelated links, stopwords, etc and generate output file. Specify the input and output filename on the command line as below example.
 ```
 # python cleaner.py data_raw.txt data_cleaned.txt
 ```
