@@ -27,5 +27,4 @@ This project uses Instagram API, NLTK library for Natural Language Processing, N
 # python mini_liwc.py data_cleaned.txt
 ```
 ## Author
->>>>>>> 29528078c0222e65b4c2b3b0eb4ff4a37e6c69a6
 Hello, I'm Giri! This project is written by me as part of my assignment in INFO6010 - Computational Method in Information Science. DanCo (http://www.cs.cornell.edu/~danco/) teaches this, he is a great professor! Checkout my web (http://kuncoro.co) to know more about me.
