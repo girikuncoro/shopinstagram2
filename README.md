@@ -1,5 +1,4 @@
 ## About
-<<<<<<< HEAD
 The goal of this project is to find out which countries use Instagram as online stores the most. We will also collect Instagram posts that correspond to onlineshop tags for further analyses on what kinds of products are sold by the online shop members.
 
 ## Requirement
