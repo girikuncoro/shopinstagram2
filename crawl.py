@@ -13,6 +13,7 @@ from urllib import urlopen
 if __name__ == "__main__":
     import sys
     query = sys.argv[1]
+    file_output = sys.argv[2]
 
 # CONSTANT
 # Register and get client_id here http://instagram.com/developer/
@@ -28,7 +29,7 @@ response = json.loads(json_data)
 
 # Borrowed code from Danny's
 # Write Instagram response to data_raw.txt
-f = open('data_raw.txt', 'a+')
+f = open(file_output, 'a+')
 def write_to_txt(data):
     if 'text' in data['caption']:
         f.write(data['caption']['id'] + '|')

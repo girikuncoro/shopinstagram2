@@ -9,6 +9,12 @@ import json
 from instagram.client import InstagramAPI
 from urllib import urlopen
 
+# Getting argument from user's command line input
+if __name__ == "__main__":
+    import sys
+    file_input = sys.argv[1]
+    file_output = sys.argv[2]
+
 # CONSTANT
 # Register and get client_id here http://instagram.com/developer/
 client_id = "ff8b092c952a43b18e6fc41e33da8150"
@@ -19,8 +25,8 @@ user_list = []
 
 # Get user data
 # Rewrite to user_data.txt
-f_raw = open('data_raw.txt', 'r')
-f_cleaned = open('user_data.txt', 'w')
+f_raw = open(file_input, 'r')
+f_cleaned = open(file_output, 'w')
 for line in f_raw.readlines():
     user_array = line.split('|')
     user_id = user_array[3]
