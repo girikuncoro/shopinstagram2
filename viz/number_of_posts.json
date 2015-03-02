@@ -1,0 +1,65 @@
+{
+	"name": "Number of posts",
+	"children": [
+		{
+			"name": "jakarta",
+				"children": [
+					{"name":"#1","size":938},
+					{"name":"#2","size":612},
+					{"name":"#3","size":1313},
+					{"name":"#4","size":345},
+					{"name":"#5","size":341},
+					{"name":"#6","size":8396},
+					{"name":"#7","size":369},
+					{"name":"#8","size":848},
+					{"name":"#9","size":348},
+					{"name":"#10","size":234},
+					{
+						"name": "bandung",
+						"children": [
+							{"name":"#1","size":2163},
+							{"name":"#2","size":566},
+							{"name":"#3","size":389},
+							{"name":"#4","size":132},
+							{"name":"#5","size":797},
+							{"name":"#6","size":3135},
+							{"name":"#7","size":760},
+							{"name":"#8","size":1034},
+							{"name":"#9","size":1498},
+							{"name":"#10","size":365},
+							{
+								"name": "jogja",
+								"children": [
+									{"name":"#1","size":220},
+									{"name":"#2","size":551},
+									{"name":"#3","size":404},
+									{"name":"#4","size":1010},
+									{"name":"#5","size":3576},
+									{"name":"#6","size":341},
+									{"name":"#7","size":734},
+									{"name":"#8","size":1430},
+									{"name":"#9","size":1015},
+									{"name":"#10","size":384},
+									{
+										"name": "bali",
+										"children": [
+											{"name":"#1","size":423},
+											{"name":"#2","size":1433},
+											{"name":"#3","size":8396},
+											{"name":"#4","size":551},
+											{"name":"#5","size":785},
+											{"name":"#6","size":356},
+											{"name":"#7","size":1009},
+											{"name":"#8","size":161},
+											{"name":"#9","size":1501},
+											{"name":"#10","size":28}
+										]
+									}
+								]
+							}
+						]
+					}	
+			]
+		}
+	]
+}

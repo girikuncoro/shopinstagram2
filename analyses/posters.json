@@ -1,0 +1,34 @@
+{
+	"Bandung": {
+		"unique_users": 751,
+		"stores": 711,
+		"advertisers": 40,
+		"total_posts":546284,
+		"store posts":255418,
+		"advertiser posts":290866
+	},
+	"Jakarta": {
+		"unique_users": 1273,
+		"stores": 1113,
+		"advertisers": 160,
+		"total_posts":2741828,
+		"store posts":515997,
+		"advertiser posts":2225831
+	},
+	"Jogja": {
+		"unique_users": 1241,
+		"stores": 1144,
+		"advertisers": 97,
+		"total_posts":2003480,
+		"store posts":395893,
+		"advertiser posts":1607587
+	},
+	"Bali": {
+		"unique_users": 574,
+		"stores": 521,
+		"advertisers": 53,
+		"total_posts":2135625,
+		"store posts":275016,
+		"advertiser posts":1860609
+	}
+}
